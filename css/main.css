@@ -1,0 +1,88 @@
+body{
+  background-color:rgb(209, 205, 205); 
+  display: flex;
+  place-items: center;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.flex-container{
+display: flex;
+flex-direction: column;
+height: 300px;
+width: 400px;
+align-items: center;
+
+}
+
+.flex-top{
+  height:200px;
+  width: fit-content;
+  background-color: white;
+  text-align: left;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 0px;
+  padding:0px 20px 10px 20px;
+  font-size: 12px;
+  font-weight: bold;
+ 
+ 
+
+}
+.flex-top h4{color:  rgb(92, 184, 153);}
+
+.flex-top h5{ color: rgb(201, 238, 98) ;}
+.flex-top p{color: gray;}
+.flex-bottom{
+height: 200px;
+
+width: fit-content;
+display: flex;
+flex-direction: row;
+text-align: left;
+margin-left: 30px;
+margin-right: 30px;
+margin-top: 0px;
+margin-bottom: 0;
+padding: 0px;
+font-size: 12px;
+font-weight: bold;
+}
+
+.flex-bottom-a{
+  background-color: rgb(94, 206, 169);
+  display: block;
+  padding: 20px;
+  color: white;
+  width: 50%;
+
+}
+.flex-bottom-b{
+background-color: rgb(103, 226, 185);
+padding: 20px;
+font-size: 8px;
+color: white;
+font-size: 10px;
+flex-shrink: 5px;
+width: 50%;
+
+
+
+}
+h5{margin: 0;}
+button{
+  width: 120px;
+  height: 30px;
+  background-color: rgb(200, 243, 80);
+  border: none;
+  border-radius: 5px;
+  color: white;
+
+  font-size: 10px;
+ justify-content:center;
+ font-weight: bold;
+
+}
