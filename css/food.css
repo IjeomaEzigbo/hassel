@@ -79,10 +79,39 @@ padding-right: 15px;
     font-size: 20px;}
 
     h3{
-      font-size: 25px;
+      font-size: 20px;
     }
-    
+    .btn-a{
+      border-style: solid;
+      border-radius: 40px;
+      bottom: 5px;
+      height: 30px;
+      width: 150px;
+      font-size: 15px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    } 
 
+    .btn-b{
+      border-style: solid;
+      border-radius: 40px;
+      bottom: 5px;
+      height: 30px;
+      width: 150px;
+      font-size: 15px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    } 
+    .btn-c{
+      border-style: solid;
+      border-radius: 40px;
+      bottom: 5px;
+      height: 30px;
+      width: 150px;
+      font-size: 15px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    } 
 }
 
 
